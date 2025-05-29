@@ -18,16 +18,18 @@ public class Carta {
 	
 	private String nome;
 	private Status status;
+	private String imgUrl;
 	
 	
 	public Carta() {
 	}
 	
 	
-	public Carta(Long id, String nome, Status status) {
+	public Carta(Long id, String nome, Status status, String imgUrl) {
 		this.id = id;
 		this.nome = nome;
 		this.status = status;
+		this.imgUrl = imgUrl;
 	}
 
 
@@ -58,6 +60,16 @@ public class Carta {
 
 	public void setStatus(Status status) {
 		this.status = status;
+	}
+
+
+	public String getImgUrl() {
+		return imgUrl;
+	}
+
+
+	public void setImgUrl(String imgUrl) {
+		this.imgUrl = imgUrl;
 	}
 
 

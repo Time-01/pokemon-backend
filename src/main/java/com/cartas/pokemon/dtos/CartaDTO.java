@@ -9,11 +9,14 @@ public class CartaDTO {
 
 	private String nome;
 	private Status status;
+	private String imgUrl;
 	
-	public CartaDTO(Long id, String nome, Status status) {
+	public CartaDTO(Long id, String nome, Status status, String imgUrl) {
 		this.id = id;
 		this.nome = nome;
 		this.status = status;
+		this.imgUrl = imgUrl;
+		
 	}
 	
 	
@@ -27,6 +30,7 @@ public class CartaDTO {
 		id = entity.getId();
 		nome = entity.getNome();
 		status = entity.getStatus();
+		imgUrl = entity.getImgUrl();
 	}
 
 
@@ -57,6 +61,18 @@ public class CartaDTO {
 
 	public void setStatus(Status status) {
 		this.status = status;
+	}
+
+
+
+	public String getImgUrl() {
+		return imgUrl;
+	}
+
+
+
+	public void setImgUrl(String imgUrl) {
+		this.imgUrl = imgUrl;
 	}
 	
 	

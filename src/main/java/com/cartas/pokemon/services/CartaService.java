@@ -21,6 +21,7 @@ public class CartaService {
         Carta carta = new Carta();
         carta.setNome(dto.getNome());
         carta.setStatus(dto.getStatus());
+        carta.setImgUrl(dto.getImgUrl());
         carta = cartaRepository.save(carta);
         return new CartaDTO(carta);
     }
@@ -32,6 +33,7 @@ public class CartaService {
             Carta carta = optionalCarta.get();
             carta.setNome(dto.getNome());
             carta.setStatus(dto.getStatus());
+            carta.setImgUrl(dto.getImgUrl());
             carta = cartaRepository.save(carta);
             return new CartaDTO(carta);
         } else {
