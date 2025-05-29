@@ -14,6 +14,11 @@ public class CartaController {
 
     @Autowired
     private CartaService cartaService;
+    
+    @GetMapping
+    public String HelloWorld() {
+    	return "Hello Wolrd";
+    }
 
     @PostMapping
     public CartaDTO salvar(@RequestBody CartaDTO dto) {
