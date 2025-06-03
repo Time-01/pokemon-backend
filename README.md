@@ -74,9 +74,9 @@ src
 │   └── resources
 
 
-## Exemplos de Uso
+## Exemplo de Uso
 
-A seguir, você encontrará exemplos de como interagir com a API, focando nos **corpos de requisição (JSON)** para cada operação.
+Aqui esta o exemplo **corpo de requisição (JSON)** para o POST.
 
 ### Criar uma Carta (POST)
 
