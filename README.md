@@ -29,10 +29,15 @@ Gerencie suas cartas Pokémon utilizando os seguintes endpoints:
 
 
 Java: Java 21
+
 Spring: Spring Boot 3.5.0
+
 Project: Maven
-Database: MySQL 
-Deploy: Azure 
+
+Database: MySQL
+
+Deploy: Azure
+
 Deploy Database: Aiven
 
 ---
