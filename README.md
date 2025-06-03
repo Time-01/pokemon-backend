@@ -25,6 +25,18 @@ Gerencie suas cartas Pokémon utilizando os seguintes endpoints:
 
 ---
 
+## Tecnologias Utilizadas
+
+
+* Exemplo: Java 17
+* Exemplo: Spring Boot 3.5.0
+* Exemplo: Maven
+* Exemplo: MySQL 
+* Exemplo: Azure 
+* Exemplo: Aiven
+
+---
+
 ## Estrutura do Projeto
 
 O projeto segue uma estrutura padrão de um aplicativo **Java Spring Boot**, organizada da seguinte forma:
